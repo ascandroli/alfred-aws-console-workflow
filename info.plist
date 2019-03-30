@@ -37,6 +37,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -130,7 +134,7 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/ascandroli</string>
 </dict>
