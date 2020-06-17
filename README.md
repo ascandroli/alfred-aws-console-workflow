@@ -11,4 +11,4 @@ This is the recommended way to use this alfred workflow, but if you don't have F
 ---
 
 Check also my Alfred theme optimized for high resolution screens:
-https://www.alfredapp.com/extras/theme/Parfk5cGfj/
+https://www.alfredapp.com/extras/theme/QZa1PIiwmS/
