@@ -39,6 +39,8 @@
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -78,7 +80,7 @@
 			<key>uid</key>
 			<string>50B0CD10-4D52-4898-9C05-DD3A34A829C3</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -125,6 +127,8 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 			<integer>50</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.1.0</string>
 	<key>webaddress</key>
