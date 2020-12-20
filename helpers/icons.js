@@ -19,12 +19,17 @@ const duplicates = {};
 function strip(value) {
     return value
         .trim()
+        .toLowerCase()
         .replace(/_|-|\s+/g, '')
-        .toLowerCase();
+        .replace(/services/g, '')
+        .replace(/service/g, '')
+        .replace(/container/g, '')
+        .replace(/light/g, '')
+        .replace(/console/g, '');
 }
 
 function namesMatch(file, title) {
-    return strip(file).endsWith(strip(title) + '.png');
+    return strip(file).endsWith(strip(title) + '64.png') || strip(file).endsWith(strip(title) + '48.png')
 }
 
 data.items.forEach(function (item, i) {
@@ -54,7 +59,9 @@ data.items.forEach(function (item, i) {
 });
 
 result.items.forEach(function (item, i) {
-    fs.createReadStream(item.fileName).pipe(fs.createWriteStream('pngs/' + item.uid + '.png'));
+    if (!item.duplicated) {
+        fs.createReadStream(item.fileName).pipe(fs.createWriteStream('pngs/' + item.uid + '.png'));
+    }
 });
 
 missing.items.forEach(function (item, i) {
