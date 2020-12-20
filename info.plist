@@ -58,15 +58,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>#
-# Alfred Script Filter JSON format
-#
-# This example demonstrates all fields available for populating results.
-#
-# For an in-depth explanation, use the (?) help button to the bottom left.
-#
-
-cat ./awsc-mezz-data.parsed.json
+				<string>cat ./awsc-mezz-data.parsed.json
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -134,7 +126,7 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/ascandroli</string>
 </dict>

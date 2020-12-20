@@ -6,7 +6,7 @@ I use a dedicated browser for AWS built using the fantastic [Fluid App](http://f
 This is the recommended way to use this alfred workflow, but if you don't have Fluid any other browser should also work.
 
 * The list of services is parsed out of the *"awsc-mezz-data"* meta tag in the aws console html.
-* The icon pack (AWS-Architecture-Icons_PNG_20190207) has been downloaded from https://aws.amazon.com/architecture/icons/
+* The icon pack (AWS-Architecture-Assets-For-Light-and-Dark-BG_20200911) has been downloaded from https://aws.amazon.com/architecture/icons/
 
 ---
 
